@@ -17,6 +17,8 @@ public class JavaCollectionDemo {
 			list.add("Vijay");
 			list.add("Ravi");
 			list.add("Ajay");
+			list.add("siva");
+			list.add("sravani");
 			Iterator<String> itr = list.iterator();
 			while (itr.hasNext()) {
 				System.out.println(itr.next());
@@ -29,10 +31,11 @@ public class JavaCollectionDemo {
 			System.out.println("\nIn doStackDemo");
 			Stack<String> stack = new Stack<>();
 			stack.push("Ayush");
-			stack.push("Garvit");
+			stack.push("ramu");
 			stack.push("Amit");
 			stack.push("Ashish");
-			stack.push("Garima");
+			stack.push("rishi");
+		
 			String pop = stack.pop();
 			Iterator<String> itr = stack.iterator();
 			while (itr.hasNext()) {
@@ -86,6 +89,7 @@ public class JavaCollectionDemo {
 			map.put(100, "Amit");
 			map.put(101, "Vijay");
 			map.put(102, "Rahul");
+			map.put(100, "ritwik");
 			for (Map.Entry m : map.entrySet())
 			{
 				System.out.println(m.getKey() + " " + m.getValue());
